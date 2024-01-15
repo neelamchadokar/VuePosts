@@ -1,0 +1,15 @@
+
+@layer{
+    .title{
+        @apply text-pink-200
+    }
+    th{
+        @apply uppercase p-2
+    }
+    td{
+        @apply p-2
+    }
+    tr{
+        @apply m-auto
+    }
+}
