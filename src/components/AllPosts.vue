@@ -72,6 +72,7 @@ created(){
     </button>
     <div v-else>
 <ul>
+  <li v-if="comments.length<1" class="text-red-300">No comments available</li>
   <li class="odd:bg-pink-300 p-2 text-center" v-for="com in comments" :key="com.id">{{ com.body }}</li>
 </ul>
     </div>
